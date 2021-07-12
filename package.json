@@ -1,0 +1,24 @@
+{
+  "name": "event-pusher",
+  "version": "1.0.0",
+  "description": "UCI Telemetry Event Pusher",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc-watch --onSuccess \"node ./dist/index.js\"",
+    "start": "node dist/index",
+    "test": "echo '- no tests -'",
+    "lint": "tslint --project tsconfig.json",
+    "lint:fix": "yarn run lint --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@walmartlabs/cookie-cutter-core": "^1.4.0-beta",
+    "@walmartlabs/cookie-cutter-kafka": "^1.4.0-beta",
+    "got": "^11.8.2",
+    "request": "^2.83.0",
+    "tsc-watch": "^4.4.0",
+    "uuid": "3.2.1"
+  }
+}

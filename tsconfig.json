@@ -1,0 +1,25 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "allowJs": true,
+    "outDir": "./dist",
+    "rootDir": ".",
+    "sourceMap": true,
+    "module": "commonjs",
+    "target": "es6",
+    "lib": ["es2017", "esnext"],
+    "strict": false,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "esModuleInterop": true,
+    "noImplicitAny": false,
+    "declaration": true,
+    "noEmitOnError": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "exclude": ["node_modules", "dist", "telemetry"],
+  "include": ["**/*.ts",]
+}
